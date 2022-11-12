@@ -1,0 +1,16 @@
+/* modal */
+  
+.myModal {
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    display: none;
+    overflow-y: auto;
+    background-color: var(--overlay-color);
+}
+
+.myModal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
